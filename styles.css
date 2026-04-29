@@ -21,3 +21,26 @@ main{
     align-items:center;
     background-color: #f4f7f6;
 }
+/*Create grid for gallery items*/
+.gallery grid{
+    display: grid;
+    grid grid-template-columns: 2 fr;
+    judtify items:center;
+    gap:40px;
+    width:100%;
+    max: width 800px;
+}
+.gallery-item img{
+    max-width:100%;
+    height:auto;
+    border-radius: 8px;
+    box-shadow:0 4px 15px rgba(o,0,o,0.1)
+}
+/*Hero Section*/
+.hero{
+    margin-bottom: var(--spacing);
+    border-bottom: #5e81ac;
+    padding-bottom: ;
+}
+
+}
