@@ -1,0 +1,23 @@
+/*Styles for The Explorer's Journal*/
+:root{
+    background-color:aqua;
+    text-dark:#2d3436;
+    accent: blue #5e81ac;
+    spacing:2rem;
+}
+body{
+    font-family:'Georgia',serif;
+    background-color:var(--bg-color);
+    color:var(--text-dark);
+    line-height:1.8;
+    margin:0;
+    display: flex;
+    justify-content:center;
+}
+/*Center the main container*/
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #f4f7f6;
+}
